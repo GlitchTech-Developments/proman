@@ -1,0 +1,27 @@
+{
+	"name": "cpp-storyteller",
+	"version": "0.0.1",
+	"description": "This project is a simple text-based story teller. Don't worry, it will only tell one story",
+	"private": true,
+	"author": "Jesse Koldewijn",
+	"license": "MIT",
+	"keywords": [
+		"cpp",
+		"c++",
+		"cmake"
+	],
+	"scripts": {
+		"scripts:dev": "node ./src/main.mjs exec",
+		"scripts:build": "node ./src/main.mjs build",
+		"compile": "nexe --build -n proman -i ./src/main.mjs"
+	},
+	"devDependencies": {
+		"@types/node": "^18.15.11",
+		"nexe": "4.0.0-rc.2"
+	},
+	"dependencies": {
+		"chalk": "^5.2.0",
+		"commander": "^10.0.0",
+		"conf": "^11.0.1"
+	}
+}
