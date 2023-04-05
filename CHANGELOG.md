@@ -1,10 +1,6 @@
-# Changelog
+# Changelog - ProMan (CMake project manager)
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
-### [0.0.12-canary.5](https://github.com/GlitchTech-Developments/proman/compare/v0.0.12-canary.4...v0.0.12-canary.5) (2023-04-05)
-
-### [0.0.12-canary.4](https://github.com/GlitchTech-Developments/proman/compare/v0.0.12-canary.3...v0.0.12-canary.4) (2023-04-05)
 
 ### [0.0.10](https://github.com/GlitchTech-Developments/proman/compare/v0.0.9...v0.0.10) (2023-04-05)
 
