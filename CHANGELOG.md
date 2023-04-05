@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.12-canary.1](https://github.com/GlitchTech-Developments/proman/compare/v0.0.12-canary.0...v0.0.12-canary.1) (2023-04-05)
+
 ### [0.0.12-canary.0](https://github.com/GlitchTech-Developments/proman/compare/v0.0.14...v0.0.12-canary.0) (2023-04-05)
 
 ### [0.0.11](https://github.com/GlitchTech-Developments/proman/compare/v0.0.14...v0.0.11) (2023-04-05)
