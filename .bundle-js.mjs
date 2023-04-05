@@ -12,7 +12,7 @@ await esbuild
 		platform: "node",
 		target: "esnext",
 		outdir: "./bin/dist/",
-		outExtension: { ".js": ".cjs" },
+		outExtension: { ".js": ".cjs" }
 	})
 	.then(() => console.log("⚡ build complete! ⚡"))
 	.catch(() => process.exit(1));

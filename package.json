@@ -37,6 +37,7 @@
 		"@types/node": "^18.15.11",
 		"esbuild": "^0.17.15",
 		"prettier": "^2.8.7",
+		"prettier-plugin-organize-imports": "^3.2.2",
 		"standard-version": "^9.5.0"
 	},
 	"preferGlobal": true

@@ -1,7 +1,7 @@
+import fs from "fs";
 import { exec } from "node:child_process";
 import { platform } from "node:process";
 import path from "path";
-import fs from "fs";
 
 export const runExec = async () => {
 	const projectPathName = path.resolve(process.cwd());
