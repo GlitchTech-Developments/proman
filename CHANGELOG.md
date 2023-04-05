@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.16](https://github.com/GlitchTech-Developments/proman/compare/v0.0.12-canary.5...v0.0.16) (2023-04-05)
+
+
+### Bug Fixes
+
+* added project name to changelog file ([e7dcf17](https://github.com/GlitchTech-Developments/proman/commit/e7dcf17824511ae7107442e482497fef7eb5c2e9))
+* synced canary with main ([60ef9da](https://github.com/GlitchTech-Developments/proman/commit/60ef9dae7d2a2eb313850b9b26ac59123dc78154))
+
 ### [0.0.15](https://github.com/GlitchTech-Developments/proman/compare/v0.0.12-canary.5...v0.0.15) (2023-04-05)
 
 ### Bug Fixes
