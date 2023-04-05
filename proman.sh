@@ -1,1 +1,1 @@
-node ./src/proman.mjs $1
+node ./bin/dist/proman.cjs $1
