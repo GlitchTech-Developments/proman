@@ -1,13 +1,29 @@
 <h1 align="center">Welcome to ProMan 👋</h1>
+
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/GlitchTech-Developments/proman/blob/main/LICENCE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
+</p>
+
+## CI
+
+<div style="display: flex; gap: .5rem; justify-items: center; vertical-align: center; align-items: center;">
+  <div style="font-size: 1rem; justify-items: center; vertical-align: center; align-items: center; display: flex; gap: .25rem;">Main
+  <a href="https://github.com/GlitchTech-Developments/proman/actions/workflows/workspace-ci-canary.yml" target="_blank">
+    <img alt="CI workflow" src="https://github.com/GlitchTech-Developments/proman/actions/workflows/workspace-ci-canary.yml/badge.svg?branch=canary" />
+  </a>
+  </div>
+
+  <div style="font-size: 1rem; justify-items: center; vertical-align: center; align-items: center; display: flex; gap: .25rem;">Canary 
   <a href="https://github.com/GlitchTech-Developments/proman/actions/workflows/workspace-ci.yml" target="_blank">
     <img alt="CI workflow" src="https://github.com/GlitchTech-Developments/proman/actions/workflows/workspace-ci.yml/badge.svg?branch=main" />
   </a>
-</p>
+  </div>
+</div>
+
+<br />
 
 > A simple Node.js based cmake project manager - Build using TypeScript and Commander.js
 
