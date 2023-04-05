@@ -1,1 +1,0 @@
-node ./bin/dist/proman.cjs $1
