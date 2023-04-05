@@ -30,9 +30,7 @@
 		"package:publish": "standard-version && git push --follow-tags origin main && npm publish --access public"
 	},
 	"dependencies": {
-		"commander": "^10.0.0",
-		"fs": "^0.0.1-security",
-		"path": "^0.12.7"
+		"commander": "^10.0.0"
 	},
 	"devDependencies": {
 		"@types/node": "^18.15.11",
