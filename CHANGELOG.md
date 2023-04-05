@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/GlitchTech-Developments/proman/compare/v0.0.9...v0.0.10) (2023-04-05)
+
+
+### Bug Fixes
+
+* small tweak on canary release script ([dea1ef5](https://github.com/GlitchTech-Developments/proman/commit/dea1ef552724656215cc5eacb25249131b7592ca))
+
 ### [0.0.5](https://github.com/GlitchTech-Developments/proman/compare/v0.0.9...v0.0.5) (2023-04-05)
 
 ### [0.0.3](https://github.com/GlitchTech-Developments/proman/compare/v0.0.2...v0.0.3) (2023-04-05)
