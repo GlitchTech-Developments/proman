@@ -26,7 +26,6 @@
 		"build": "tsc && node ./.bundle-js.mjs",
 		"dev:build": "node ./src/main.mjs build",
 		"dev:exec": "node ./src/main.mjs exec",
-		"postinstall": "tsc && node ./.bundle-js.mjs",
 		"package:publish": "standard-version && git push --follow-tags origin origin/main && npm publish --access public",
 		"package:publish:canary": "standard-version --prerelease canary && git push --follow-tags origin origin/canary && npm publish --tag canary --access public"
 	},
