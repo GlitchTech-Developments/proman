@@ -1,1 +1,1 @@
-node ./src/main.mjs %*
+node ./src/proman.mjs %*

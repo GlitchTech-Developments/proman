@@ -2,7 +2,8 @@
 	"name": "proman",
 	"version": "0.0.1",
 	"description": "A simple js-based cli tool for running Cmake projects.",
-	"private": true,
+	"main": "./src/proman.mjs",
+	"type": "module",
 	"author": "Jesse Koldewijn",
 	"license": "MIT",
 	"keywords": [
@@ -11,17 +12,15 @@
 		"cmake"
 	],
 	"scripts": {
-		"scriptsRun:dev": "node ./src/main.mjs exec",
-		"scriptsRun:build": "node ./src/main.mjs build",
-		"compile": "nexe --build -n proman -i ./src/main.mjs"
-	},
-	"devDependencies": {
-		"@types/node": "^18.15.11",
-		"nexe": "4.0.0-rc.2"
+		"exec": "node ./src/main.mjs exec",
+		"build": "node ./src/main.mjs build"
 	},
 	"dependencies": {
 		"chalk": "^5.2.0",
 		"commander": "^10.0.0",
 		"conf": "^11.0.1"
+	},
+	"devDependencies": {
+		"@types/node": "^18.15.11"
 	}
 }
