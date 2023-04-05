@@ -1,6 +1,6 @@
 {
 	"name": "@glitchtech-dev/proman",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A simple js-based cli tool for running Cmake projects.",
 	"keywords": [
 		"cpp",
@@ -27,7 +27,8 @@
 		"dev:build": "node ./src/main.mjs build",
 		"dev:exec": "node ./src/main.mjs exec",
 		"postinstall": "tsc && node ./.bundle-js.mjs",
-		"package:publish": "npm publish"
+		"package:publish": "git push --follow-tags origin main && npm publish --access public",
+		"release": "standard-version"
 	},
 	"dependencies": {
 		"commander": "^10.0.0",
@@ -36,7 +37,8 @@
 	},
 	"devDependencies": {
 		"@types/node": "^18.15.11",
-		"esbuild": "^0.17.15"
+		"esbuild": "^0.17.15",
+		"standard-version": "^9.5.0"
 	},
 	"preferGlobal": true
 }
