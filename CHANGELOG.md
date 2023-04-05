@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.18](https://github.com/GlitchTech-Developments/proman/compare/v0.0.16...v0.0.18) (2023-04-05)
+
+
+### Bug Fixes
+
+* stopped ignoring of build files ([48f27b8](https://github.com/GlitchTech-Developments/proman/commit/48f27b873a58176bb327fcd59ee76e10a364917d))
+
 ### [0.0.17-canary.0](https://github.com/GlitchTech-Developments/proman/compare/v0.0.16...v0.0.17-canary.0) (2023-04-05)
 
 ### [0.0.16](https://github.com/GlitchTech-Developments/proman/compare/v0.0.12-canary.5...v0.0.16) (2023-04-05)
