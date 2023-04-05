@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/GlitchTech-Developments/proman/compare/v0.0.4...v0.0.5) (2023-04-05)
+
+
+### Bug Fixes
+
+* added both main and canary ci badge to readme ([7e8b97d](https://github.com/GlitchTech-Developments/proman/commit/7e8b97df1b5219d4404b5266536a767bae236e65))
+
 ### [0.0.4](https://github.com/GlitchTech-Developments/proman/compare/v0.0.3...v0.0.4) (2023-04-05)
 
 ### [0.0.3](https://github.com/GlitchTech-Developments/proman/compare/v0.0.2...v0.0.3) (2023-04-05)
