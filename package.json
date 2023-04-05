@@ -1,33 +1,42 @@
 {
-	"name": "proman",
+	"name": "@glitchtech-dev/proman",
 	"version": "0.0.1",
 	"description": "A simple js-based cli tool for running Cmake projects.",
-	"main": "./src/proman.mjs",
-	"preferGlobal": true,
-	"bin": {
-		"proman": "./bin/dist/proman.cjs"
-	},
-	"type": "module",
-	"author": "Jesse Koldewijn",
-	"license": "MIT",
 	"keywords": [
 		"cpp",
 		"c++",
 		"cmake"
 	],
+	"homepage": "https://github.com/GlitchTech-Developments/proman#readme",
+	"bugs": {
+		"url": "https://github.com/GlitchTech-Developments/proman/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/GlitchTech-Developments/proman.git"
+	},
+	"license": "MIT",
+	"author": "Jesse Koldewijn",
+	"type": "module",
+	"main": "./src/proman.mjs",
+	"bin": {
+		"proman": "bin/dist/proman.cjs"
+	},
 	"scripts": {
-		"dev:exec": "node ./src/main.mjs exec",
-		"dev:build": "node ./src/main.mjs build",
 		"build": "tsc && node ./.bundle-js.mjs",
-		"postinstall": "tsc && node ./.bundle-js.mjs"
+		"dev:build": "node ./src/main.mjs build",
+		"dev:exec": "node ./src/main.mjs exec",
+		"postinstall": "tsc && node ./.bundle-js.mjs",
+		"package:publish": "npm publish"
 	},
 	"dependencies": {
 		"commander": "^10.0.0",
-		"path": "^0.12.7",
-		"fs": "^0.0.1-security"
+		"fs": "^0.0.1-security",
+		"path": "^0.12.7"
 	},
 	"devDependencies": {
 		"@types/node": "^18.15.11",
 		"esbuild": "^0.17.15"
-	}
+	},
+	"preferGlobal": true
 }
