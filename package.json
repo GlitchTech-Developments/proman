@@ -27,7 +27,8 @@
 		"dev:build": "node ./src/main.mjs build",
 		"dev:exec": "node ./src/main.mjs exec",
 		"postinstall": "tsc && node ./.bundle-js.mjs",
-		"package:publish": "standard-version && git push --follow-tags origin main && npm publish --access public"
+		"package:publish": "standard-version && git push --follow-tags origin main && npm publish --access public",
+		"package:publish:canary": "standard-version && git push --follow-tags origin canary && npm run release --access public -- --prerelease "
 	},
 	"dependencies": {
 		"commander": "^10.0.0"
