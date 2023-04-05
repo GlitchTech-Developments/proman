@@ -11,6 +11,15 @@
 
 > A simple Node.js based cmake project manager - Build using TypeScript and Commander.js
 
+# Install
+
+The ProMan package is available to use on npm, [link](https://www.npmjs.com/package/@glitchtech-dev/proman)
+and you can install the package as follows:
+
+```
+npm i -g @glitchtech-dev/proman
+```
+
 ## Author
 
 👤 **GlitchTech Developments**
