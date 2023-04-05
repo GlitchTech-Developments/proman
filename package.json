@@ -1,6 +1,6 @@
 {
 	"name": "@glitchtech-dev/proman",
-	"version": "0.0.17-canary.0",
+	"version": "0.0.17",
 	"description": "A simple js-based cli tool for running Cmake projects.",
 	"keywords": [
 		"cpp",
