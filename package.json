@@ -1,7 +1,7 @@
 {
-	"name": "cpp-storyteller",
+	"name": "proman",
 	"version": "0.0.1",
-	"description": "This project is a simple text-based story teller. Don't worry, it will only tell one story",
+	"description": "A simple js-based cli tool for running Cmake projects.",
 	"private": true,
 	"author": "Jesse Koldewijn",
 	"license": "MIT",
@@ -11,8 +11,8 @@
 		"cmake"
 	],
 	"scripts": {
-		"scripts:dev": "node ./src/main.mjs exec",
-		"scripts:build": "node ./src/main.mjs build",
+		"scriptsRun:dev": "node ./src/main.mjs exec",
+		"scriptsRun:build": "node ./src/main.mjs build",
 		"compile": "nexe --build -n proman -i ./src/main.mjs"
 	},
 	"devDependencies": {
