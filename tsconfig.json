@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"rootDir": "./",
+		"moduleResolution": "node",
+		"outDir": "./bin",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true
+	},
+	"include": ["./src/*"],
+	"exclude": ["./bin*"]
+}

@@ -5,7 +5,7 @@ import fs from "fs";
 
 export const runExec = async () => {
 	const projectPathName = path.resolve(process.cwd());
-	const projectName = [];
+	const projectName: string[] | any[] = [];
 
 	try {
 		const CmakeFile = await fs.readFileSync(
@@ -26,9 +26,11 @@ export const runExec = async () => {
 			});
 		} else {
 			console.log("error: couldn't find CMakeLists.txt file.");
+			return;
 		}
 	} catch (err) {
-		console.log(`error: ${err}`);
+		console.log(`${err}`);
+		return;
 	}
 
 	if (!projectName || projectName.length !== 1) {

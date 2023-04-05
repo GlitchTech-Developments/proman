@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { program } from "commander";
-import { runBuild, runExec } from "./utils.mjs";
+import { runBuild, runExec } from "./utils.js";
 
 program
 	.command("exec")
