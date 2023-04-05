@@ -4,7 +4,6 @@ import path from "path";
 import fs from "fs";
 
 export const runExec = async () => {
-	// const projectDirName = path.basename(path.resolve(process.cwd()));
 	const projectPathName = path.resolve(process.cwd());
 	const projectName = [];
 
